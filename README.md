@@ -516,9 +516,9 @@ public class Main {
         // Verificación de conexión a la base de datos
         try {
             Connection con = ConexionDB.getConexion();
-            System.out.println("✅ Conexión exitosa a PostgreSQL");
+            System.out.println("Conexión exitosa a PostgreSQL");
         } catch (Exception e) {
-            System.out.println("❌ Error de conexión");
+            System.out.println("Error de conexión");
             e.printStackTrace();
         }
 
